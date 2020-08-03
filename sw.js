@@ -1,7 +1,7 @@
 
 let CACHE_NAME = 'oxi.cx-cdn-v0.1';
 let urlsToCache = [
-    '/css/style.css',
+    '/css/styles.css',
     '/js/main.js'
 ];
 
