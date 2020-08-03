@@ -5,7 +5,7 @@ let serviceWorkers = [
         'name': 'Site'
     },
     {
-        'url': 'cdn.oxi.cx/sw.js',
+        'url': 'https://cdn.oxi.cx/sw.js',
         'name': 'CDN'
     }];
 
