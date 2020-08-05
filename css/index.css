@@ -23,7 +23,7 @@
     line-height: 26px;
 }
 
-.panel-buttons:first-child {
+.panel-buttons button:first-child {
     margin-right: 5px;
 }
 
