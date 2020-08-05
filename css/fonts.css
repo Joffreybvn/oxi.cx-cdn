@@ -1,0 +1,31 @@
+
+/* Title fonts */
+
+@font-face {
+    font-family: "Merriweather";
+    src: url("../fonts/merriweather/Merriweather-Black.ttf") format("ttf");
+
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Merriweather";
+    src: url("../fonts/merriweather/Merriweather-Bold.ttf") format("ttf");
+
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Content fonts */
+
+@font-face {
+    font-family: "Muli";
+    src: url("../fonts/muli/muli-regular-webfont.ttf") format("ttf"),
+    url("../fonts/muli/muli-regular-webfont.eot") format("eot"),
+    url("../fonts/muli/muli-regular-webfont.woff") format("woff"),
+    url("../fonts/muli/muli-regular-webfont.woff2") format("woff2");
+
+    font-weight: normal;
+    font-style: normal;
+}
