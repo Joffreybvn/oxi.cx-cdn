@@ -19,6 +19,14 @@
   text-decoration: none;
 }
 
+.navbar-brand {
+    line-height: 26px;
+}
+
+.panel-buttons:first-child {
+    margin-right: 5px;
+}
+
 /*
  * Dummy devices (replace them with your own or something else entirely!)
  */
