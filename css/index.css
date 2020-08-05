@@ -23,6 +23,10 @@
     line-height: 26px;
 }
 
+.navbar-brand a {
+    color: #e2e6ea;
+}
+
 .panel-buttons button:first-child {
     margin-right: 5px;
 }
