@@ -92,10 +92,16 @@
 }
 
 @media (max-width: 768px) {
-  
+
   .index-shortener-input {
     width: inherit;
   }
+}
+
+/* Headline */
+
+.index-headline {
+  margin-top: 0 !important;
 }
 
 /*
