@@ -3,7 +3,7 @@
   max-width: 960px;
 }
 
-/* Custom translucent header **/
+/* Header **/
 
 .site-header {
   background-color: rgba(0, 0, 0, .85);
@@ -22,6 +22,14 @@
 .navbar-brand {
     line-height: 26px;
     color: #e2e6ea;
+}
+
+.navbar-toggler {
+  color: #e2e6ea;
+}
+
+.icon-bars-solid::before {
+  line-height: 30px;
 }
 
 .nav-items a {
