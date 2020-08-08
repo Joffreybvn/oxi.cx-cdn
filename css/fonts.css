@@ -70,6 +70,15 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-bars-solid:before {
+.icon-shrink:before {
+    content: "\62";
+}
+.icon-dollar:before {
+    content: "\63";
+}
+.icon-bars-menu:before {
     content: "\61";
+}
+.icon-share:before {
+    content: "\64";
 }
