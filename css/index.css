@@ -40,6 +40,12 @@
     margin-right: 5px;
 }
 
+@media (min-width: 992px) {
+  .nav-buttons-wrapper {
+    flex-direction: row-reverse;
+  }
+}
+
 /*
  * Dummy devices (replace them with your own or something else entirely!)
  */
