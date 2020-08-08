@@ -72,13 +72,9 @@
 
 .icon-shrink:before {
     content: "\62";
+    vertical-align: -20%;
 }
-.icon-dollar:before {
-    content: "\63";
-}
+
 .icon-bars-menu:before {
     content: "\61";
-}
-.icon-share:before {
-    content: "\64";
 }
