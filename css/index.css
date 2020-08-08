@@ -29,7 +29,7 @@
 }
 
 .icon-bars-solid::before {
-  line-height: 30px;
+  line-height: 30px !important;
 }
 
 .nav-items a {
