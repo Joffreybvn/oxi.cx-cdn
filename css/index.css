@@ -20,8 +20,14 @@
 }
 
 .navbar-brand {
-    line-height: 26px;
-    color: #e2e6ea;
+  line-height: 26px;
+  color: #e2e6ea;
+  margin-top: 0;
+  margin-bottom: auto;
+}
+
+.nav-buttons-wrapper {
+  display: flex;
 }
 
 .navbar-toggler {
@@ -41,14 +47,36 @@
 }
 
 @media (min-width: 992px) {
+
   .nav-buttons-wrapper {
     flex-direction: row-reverse;
+
+  }
+}
+
+@media (max-width: 991px) {
+
+  .nav-wrapper {
+    flex-wrap: nowrap !important
+  }
+
+  .nav-buttons-wrapper {
+    flex-direction: column;
+  }
+
+  .panel-buttons {
+    justify-content: flex-end;
+  }
+
+  .ul-nav-items {
+    align-items: center;
+    width: calc(100% - 103px);
   }
 }
 
 /*
- * Dummy devices (replace them with your own or something else entirely!)
- */
+* Dummy devices (replace them with your own or something else entirely!)
+*/
 
 .product-device {
   position: absolute;
