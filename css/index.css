@@ -126,7 +126,7 @@
   top: -30%;
   right: auto;
   left: 0;
-  background-color: #e5e5e5;
+  transform: rotate(-15deg);
 }
 
 /* Extra utilities */
