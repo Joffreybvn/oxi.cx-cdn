@@ -21,6 +21,24 @@ p {
   font-family: "Muli", sans-serif;
 }
 
+/* Buttons */
+
+.btn-outline-oxi-white {
+  color: var(--white);
+  border-color: var(--white)
+}
+
+.btn-outline-oxi-white:hover, .btn-outline-oxi-white:active {
+  color: var(--black);
+  background-color: var(--white);
+}
+
+.btn-oxi-white {
+  color: var(--black);
+  background-color: var(--white);
+  border-color: var(--white);
+}
+
 /* Header **/
 
 .site-header {
