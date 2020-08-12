@@ -2,7 +2,7 @@
 
 :root {
     --black: #001524;
-    --white: #ffecd1;
+    --white: #f8f9fa;
     --blue: #98c1d9;
     --darkblue: #15616d;
     --yellow: #ff7d00;
@@ -14,30 +14,11 @@
 }
 
 h1 {
-    font-family: "Merriweather", sans-serif;
-    font-weight: 900;
+    font-family: "merriweatherbold", sans-serif;
 }
 
 p {
     font-family: "Muli", sans-serif;
-}
-
-/* Buttons */
-
-.btn-outline-oxi-white {
-    color: var(--darkblue);
-    border-color: var(--darkblue)
-}
-
-.btn-outline-oxi-white:hover, .btn-outline-oxi-white:active {
-    color: var(--black);
-    background-color: var(--darkblue);
-}
-
-.btn-oxi-white {
-    color: var(--black);
-    background-color: var(--darkblue);
-    border-color: var(--darkblue);
 }
 
 /* Header **/
@@ -55,6 +36,7 @@ p {
 }
 
 .navbar-brand {
+    font-family: "merriweatherbold", sans-serif;
     line-height: 26px;
     color: var(--white);
     margin-top: 0;
