@@ -3,13 +3,7 @@
 
 @font-face {
     font-family: "Merriweather";
-    src: url("../fonts/merriweather/Merriweather-Bold.ttf") format("ttf");
-}
-
-@font-face {
-    font-family: "Merriweather";
     src: url("../fonts/merriweather/Merriweather-Black.ttf") format("ttf");
-    font-weight: 900;
 }
 
 /* Content fonts */
