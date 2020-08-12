@@ -12,8 +12,11 @@
     max-width: 960px;
 }
 
-h1 {
+h1, h2, .navbar-brand {
     font-family: "merriweatherbold", sans-serif;
+}
+
+h1 {
     color: var(--blacktext)
 }
 
@@ -36,7 +39,6 @@ p {
 }
 
 .navbar-brand {
-    font-family: "merriweatherbold", sans-serif;
     line-height: 26px;
     color: var(--white);
     margin-top: 0;
