@@ -12,6 +12,15 @@
   max-width: 960px;
 }
 
+h1 {
+  font-family: "Merriweather", sans-serif;
+  font-weight: 900;
+}
+
+p {
+  font-family: "Muli", sans-serif;
+}
+
 /* Header **/
 
 .site-header {
@@ -117,6 +126,10 @@
 
 .index-headline {
   margin-top: 0 !important;
+}
+
+.headline-text-wrapper .h1:first-child {
+  margin-bottom: 0;
 }
 
 /*
