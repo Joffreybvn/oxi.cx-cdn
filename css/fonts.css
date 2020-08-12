@@ -5,6 +5,7 @@
     font-family: 'merriweatherbold';
     src: url('../fonts/merriweather/merriweather-bold-webfont.woff2') format('woff2'),
     url('../fonts/merriweather/merriweather-bold-webfont.woff') format('woff');
+
     font-weight: normal;
     font-style: normal;
 }
@@ -31,6 +32,7 @@
     url("../fonts/oxi/oxicx.woff") format("woff"),
     url("../fonts/oxi/oxicx.ttf") format("truetype"),
     url("../fonts/oxi/oxicx.svg#oxicx") format("svg");
+
     font-weight: normal;
     font-style: normal;
 

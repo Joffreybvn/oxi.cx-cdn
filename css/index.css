@@ -2,6 +2,7 @@
 
 :root {
     --black: #001524;
+    --blacktext: #16181b;
     --white: #f8f9fa;
     --blue: #98c1d9;
     --darkblue: #15616d;
@@ -13,6 +14,7 @@
 
 h1 {
     font-family: "merriweatherbold", sans-serif;
+    color: var(--blacktext)
 }
 
 p {
