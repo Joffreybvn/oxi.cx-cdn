@@ -55,6 +55,10 @@
     margin-right: 5px;
 }
 
+.nav-link {
+  font-family: "Muli", sans-serif;
+}
+
 @media (min-width: 992px) {
 
   .nav-buttons-wrapper {
@@ -106,6 +110,10 @@
 }
 
 /* Headline */
+
+.bg-oxi-white {
+  background-color: var(--white);
+}
 
 .index-headline {
   margin-top: 0 !important;
