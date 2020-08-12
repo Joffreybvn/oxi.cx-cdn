@@ -5,8 +5,6 @@
     --white: #f8f9fa;
     --blue: #98c1d9;
     --darkblue: #15616d;
-    --yellow: #ff7d00;
-    --brown: #78290f;
 }
 
 .container {
@@ -154,8 +152,8 @@ p {
 .big-icon-left {
     top: -30%;
     right: auto;
-    left: 0;
-    transform: rotate(-15deg);
+    left: -1%;
+    transform: rotate(-12deg);
 }
 
 @media (min-width: 768px) {
