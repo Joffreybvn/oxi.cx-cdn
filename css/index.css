@@ -113,6 +113,8 @@ p {
 .index-shortener-input {
     font-family: "Muli", sans-serif;
     border: none;
+    border-radius: 0;
+    background-color: #eaeaea;
 }
 
 .index-shortener-input:focus {
