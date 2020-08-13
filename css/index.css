@@ -103,7 +103,13 @@ p {
 /* Shortener */
 
 .index-shortener {
+    padding: 3rem 1rem;
+}
+
+.index-shortener-wrapper {
     display: flex;
+    border: 3px solid var(--black);
+    padding: 3px;
 }
 
 .index-shortener-input {
@@ -116,11 +122,17 @@ p {
 
 .button-shorten {
     color: var(--white);
-    background-color: var(--yellow);
-    border-color: var(--yellow);
+    background-color: var(--darkblue);
+    border-color: var(--darkblue);
     border-radius: 0;
     width: 100%;
     height: 100%;
+}
+
+.button-shorten:hover {
+    color: var(--black);
+    background-color: var(--blue);
+    border-color: var(--blue);
 }
 
 @media (max-width: 768px) {
