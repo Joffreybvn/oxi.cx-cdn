@@ -111,8 +111,8 @@ p {
 }
 
 .index-shortener-input {
+    font-family: "Muli", sans-serif;
     border: none;
-    font-family: 'Kalam', cursive;
 }
 
 .index-shortener-input:focus {
@@ -120,6 +120,7 @@ p {
 }
 
 .index-shortener-input::placeholder {
+    font-family: 'Kalam', cursive;
     transform: translate3d(0, 4px, 0)
 }
 
