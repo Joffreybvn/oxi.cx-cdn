@@ -120,7 +120,7 @@ p {
 }
 
 .index-shortener-input::placeholder {
-    transform: translate3d(0, -4px, 0)
+    transform: translate3d(0, 4px, 0)
 }
 
 .button-shorten {
