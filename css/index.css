@@ -121,7 +121,7 @@ p {
 
 .index-shortener-input::placeholder {
     font-family: 'Kalam', cursive;
-    transform: translate3d(0, 4px, 0)
+    transform: translate3d(0, 3px, 0)
 }
 
 .button-shorten {
