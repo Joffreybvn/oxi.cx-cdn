@@ -44,6 +44,11 @@ p {
     margin-bottom: auto;
 }
 
+.brand-oxi {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.2rem;
+}
+
 .nav-buttons-wrapper {
     display: flex;
     padding-right: 0;
