@@ -12,7 +12,7 @@
 }
 
 h1, h2, .navbar-brand {
-    font-family: 'Merriweather', serif;
+    font-family: 'Permanent Marker', cursive;
 }
 
 h1 {
@@ -38,6 +38,7 @@ p {
 }
 
 .navbar-brand {
+    display: flex;
     line-height: 26px;
     color: var(--white);
     margin-top: 0;
@@ -45,8 +46,26 @@ p {
 }
 
 .brand-oxi {
+    display: block;
     font-family: 'Permanent Marker', cursive;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
+    padding-top: 1px;
+    height: 26px;
+}
+
+.brand-cx {
+    display: block;
+    background: #fff;
+    color: #000;
+    border-radius: 3px;
+    font-size: 0.7rem;
+    margin-left: 3px;
+    padding-right: 3px;
+    padding-left: 2px;
+    font-family: "Muli", sans-serif;
+    margin-top: auto;
+    line-height: 0.9rem;
+    height: 0.8rem;
 }
 
 .nav-buttons-wrapper {
@@ -133,6 +152,8 @@ p {
 
 .button-shorten {
     border-radius: 0;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.9rem;
     width: 100%;
     height: 100%;
 }
